@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@200;300;400;600&family=Poppins:wght@0100;300;400;700&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+
+body{
+    height: 120vh;
+}
+
+.top-color{
+    height: 40vh;
+    background-color: #8BBABB;
+}
+
+.bottom-color{
+    background-color: #ffffff;
+}
+
+.container{
+    display: flex;
+    border: 1px solid transparent;
+    height: 90vh;
+    max-width: 150vh;
+    margin: auto;
+    margin-top: -180px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+form{
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    width: 100%;
+    padding: 40px;
+}
+
+form h1{
+    color: #3547A7;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+form .Name-phone-bloc{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+form .Email-Company-bloc{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+h3{
+    color: #C4B3B3;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+form .form-container{
+    margin: 30px 0;
+    padding: 10px 0;
+}
+
+.form-container input{
+    outline: none;
+    padding: 20px 0;
+}
+
+.message{
+    margin-top: -5px;
+    border: none;
+}
+
+hr{
+    border-color: #000000;
+}
+
+button{
+    margin-top: 50px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: #3547A7;
+    color: #ffffff;
+}
+
+aside{
+    width: 700px;
+    background-color: #35477D;
+    padding: 40px 40px ;
+}
+
+aside h1{
+    color: #ffffff;
+    font-weight: 200;
+    padding: 20px;
+}
+
+aside p {
+    font-size: 16px;
+    color: #94A3BE;
+    padding: 20px;
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts{
+    padding: 20px;
+}
+
+.contacts i{
+    color: #ffffff;
+    background-color: #35477D;
+    margin-top: 20px;
+}
+
+span{
+    color: #94A3BE;
+    margin: 20px;
+    justify-content: end;
+}
+
+i{
+    width: 20px;
+    height: 20px;
+}
